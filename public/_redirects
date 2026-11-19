@@ -1,0 +1,6 @@
+# Teste: todo acesso ao site vai para o LinkedIn.
+# 302 = redirecionamento temporário: o navegador não memoriza, então dá para desfazer sem resíduo.
+# Troque para 301 (permanente) só quando a mudança for definitiva.
+# O "!" força o redirecionamento mesmo existindo um index.html no deploy.
+# Para desfazer: apague este arquivo e publique de novo (ou republique o deploy anterior no Netlify).
+/*  https://www.linkedin.com/in/jose-silva-293847188/  302!
